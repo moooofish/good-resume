@@ -90,7 +90,7 @@ yarn run docs:dev
 VuePress 会在 [http://localhost:8080](http://localhost:8080) 启动一个热重载的开发服务器。
 一个简单的简历项目骨架搭建完成，如图所示
 
-![Resume Skeleton](/assets/resume_skeleton.png)
+![Resume Skeleton](/resume_skeleton.png)
 
 ## 内容编排
 
@@ -187,7 +187,7 @@ MIT Licensed | Copyright © 2023-present [qinghuanI](https://github.com/qinghuan
 
 简历骨架的显示效果如下
 
-![Online Resume Template](/assets/online_resume_template.png)
+![Online Resume Template](/online_resume_template.png)
 
 此时项目的目录结构如下：
 
@@ -238,12 +238,12 @@ VuePress 项目有很多种[部署](https://vuepress.vuejs.org/zh/guide/deploy.h
 
 在您的 GitHub 页面，按照 `Settings -> Developer settings -> Personal access tokens -> Tokens(classic)` 进入创建新 `tokens` 页面。如图所示
 
-![Generate new Tokens](/assets/generate_new_tokens.png)
+![Generate new Tokens](/generate_new_tokens.png)
 
 点击 `generate new tokens` 按钮，选择 `Generate new tokens(classic)` 选项，
 进入 `New personal access token(classic)` 页面
 
-![New personal access token](/assets/new_personal_access_token.png)
+![New personal access token](/new_personal_access_token.png)
 
 输入 `Note`，选择永不过期，勾选上所有的 `scopes`，最后点击 `Generate token` 按钮创建 `token`，请存好该 token
 
@@ -251,15 +251,15 @@ VuePress 项目有很多种[部署](https://vuepress.vuejs.org/zh/guide/deploy.h
 
 在您的 GitHub 里，创建 `online-resume` 仓库，如图所示
 
-![Create Online Resume Repo](../assets/create_online_resume_repo.png)
+![Create Online Resume Repo](../create_online_resume_repo.png)
 
 在 `online-resume` 页面，按照 `Settings -> secrets and variables -> Actions` 创建仓库的 secret
 
-![Add secret](/assets/add_secret.png)
+![Add secret](/add_secret.png)
 
 输入 Name 和第一步创建的 personal access token，点击 `Add secret` 按钮创建 secret，创建后的 secret 如图所示
 
-![Secrets List](/assets/secrets_list.png)
+![Secrets List](/secrets_list.png)
 
 1. 在项目根目录下的 .github/workflows 目录（没有的话，请手动创建一个）下创建一个 .yml 或者 .yaml 文件，如:online-resume-deploy.yml;
 
@@ -292,6 +292,6 @@ GitHub 都会重新构建
 
 按照 `Settings -> Pages` 指示，找到 `Branch` 配置，选择分支，然后点击 `save` 按钮保存
 
-![GitHub Pages Configuration](/assets/github_pages_branch.png)
+![GitHub Pages Configuration](/github_pages_branch.png)
 
 等构建成功后，在地址栏输入 [https://qinghuanI.github.io/online-resume/](https://qinghuanI.github.io/online-resume/) 就可以访问
