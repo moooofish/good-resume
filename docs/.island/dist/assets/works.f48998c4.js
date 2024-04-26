@@ -1,0 +1,2 @@
+import{jsx as e}from"react/jsx-runtime";const s=void 0,r=[];function o(n){const t=Object.assign({p:"p"},n.components);return e(t.p,{children:"\u8BB2\u8FF0\u5728\u66FE\u7ECF\u5DE5\u4F5C\u8FC7\u7684\u516C\u53F8\u7684\u9879\u76EE"})}function a(n={}){const{wrapper:t}=n.components||{};return t?e(t,Object.assign({},n,{children:e(o,n)})):o(n)}const i="2024/2/13 18:06:34",d=`\u8BB2\u8FF0\u5728\u66FE\u7ECF\u5DE5\u4F5C\u8FC7\u7684\u516C\u53F8\u7684\u9879\u76EE
+`;export{d as content,a as default,s as frontmatter,i as lastUpdatedTime,r as toc};
