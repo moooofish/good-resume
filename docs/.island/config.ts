@@ -45,21 +45,21 @@ export default defineConfig({
               text: "VuePress 搭建在线简历",
               link: "/online-resume/vuepress",
             },
-            {
-              text: "Island.js 搭建在线简历",
-              link: "/online-resume/islandjs",
-            },
+            // {
+            //   text: "Island.js 搭建在线简历",
+            //   link: "/online-resume/islandjs",
+            // },
           ],
         },
-        {
-          text: "其他",
-          items: [
-            {
-              text: "总结",
-              link: "/others/summary",
-            },
-          ],
-        },
+        // {
+        //   text: "其他",
+        //   items: [
+        //     {
+        //       text: "总结",
+        //       link: "/others/summary",
+        //     },
+        //   ],
+        // },
       ],
     },
   },
